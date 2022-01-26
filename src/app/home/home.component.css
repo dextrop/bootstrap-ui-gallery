@@ -1,0 +1,10 @@
+.container {
+    margin-top: 50px;
+}
+
+.item-show-case {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1% 2%;
+}

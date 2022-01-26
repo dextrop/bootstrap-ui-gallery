@@ -1,0 +1,7 @@
+{
+    "type": "bootstrap-ui-gallery",
+    "name": "accordion",
+    "title": "Simple Bootstrap Accordion",
+    "description": "Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.",
+    "tag": "Accordion"
+}

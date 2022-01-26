@@ -1,0 +1,8 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item" *ngFor="let item of navigation; let i = index">
+            <a [href]="item.link" *ngIf="item.link !== ''">{{item.name}}</a>
+            <span class="breadcrumb-item active" aria-current="page" *ngIf="item.link === ''">{{item.name}}</span>
+        </li>
+    </ol>
+</nav>

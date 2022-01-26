@@ -1,0 +1,7 @@
+{
+    "type": "bootstrap-ui-gallery",
+    "name": "bootstrapalerts",
+    "title": "Bootstrap Alert",
+    "description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+    "tag": "Alerts"
+}
