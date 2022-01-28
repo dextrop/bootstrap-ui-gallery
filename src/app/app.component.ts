@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'bootstrap-ui-gallery';
+
+  continue_login(obj) {
+    console.log(JSON.stringify(obj, null, 2));
+  }
 }

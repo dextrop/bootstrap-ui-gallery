@@ -16,6 +16,15 @@ import { BootstrapnavbarComponent } from './uigallery/bootstrapnavbar/bootstrapn
 import { BootstrapoffcanvasComponent } from './uigallery/bootstrapoffcanvas/bootstrapoffcanvas.component';
 import { BootstrappaginationComponent } from './uigallery/bootstrappagination/bootstrappagination.component';
 import { BootstraptoastsComponent } from './uigallery/bootstraptoasts/bootstraptoasts.component';
+import { BootstrapsimpleloginpageComponent } from './uigallery/bootstrapsimpleloginpage/bootstrapsimpleloginpage.component';
+import { FormsModule } from '@angular/forms';
+import { BootstrapsimpletableComponent } from './uigallery/bootstrapsimpletable/bootstrapsimpletable.component';
+import { BootstrapcenteredheroComponent } from './uigallery/bootstrapcenteredhero/bootstrapcenteredhero.component';
+import { BootstrapcenteredscreenshotComponent } from './uigallery/bootstrapcenteredscreenshot/bootstrapcenteredscreenshot.component';
+import { BootstrapleftalignheroComponent } from './uigallery/bootstrapleftalignhero/bootstrapleftalignhero.component';
+import { BootstraploginwithdetailComponent } from './uigallery/bootstraploginwithdetail/bootstraploginwithdetail.component';
+import { BootstrapfooterComponent } from './uigallery/bootstrapfooter/bootstrapfooter.component';
+import { BootstraploginsignupsliderComponent } from './uigallery/bootstraploginsignupslider/bootstraploginsignupslider.component';
 
 @NgModule({
   declarations: [
@@ -33,11 +42,20 @@ import { BootstraptoastsComponent } from './uigallery/bootstraptoasts/bootstrapt
     BootstrapoffcanvasComponent,
     BootstrappaginationComponent,
     BootstraptoastsComponent,
+    BootstrapsimpleloginpageComponent,
+    BootstrapsimpletableComponent,
+    BootstrapcenteredheroComponent,
+    BootstrapcenteredscreenshotComponent,
+    BootstrapleftalignheroComponent,
+    BootstraploginwithdetailComponent,
+    BootstrapfooterComponent,
+    BootstraploginsignupsliderComponent,
     
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

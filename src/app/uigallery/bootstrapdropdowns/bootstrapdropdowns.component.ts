@@ -15,5 +15,4 @@ export class BootstrapdropdownsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

@@ -1,7 +1,0 @@
-{
-    "type": "bootstrap-ui-gallery",
-    "name": "bootstrapbadges",
-    "title": "Bootstrap Badges",
-    "description": "Bootstrap badges made compatible and easy useable for Angular module, include normal batches and round-pill badges.",
-    "tag": "Badges"
-}

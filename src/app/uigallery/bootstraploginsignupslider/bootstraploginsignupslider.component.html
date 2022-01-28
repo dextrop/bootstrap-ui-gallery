@@ -1,0 +1,40 @@
+<div class="container main-comtainer position-loginbox" id="container" [class.right-panel-active]="showing == 'signup'">
+    <div class="form-container sign-up-container">
+        <div class="form" action="#">
+			<img src="https://dashboard.ask-jennie.com/assets/robot.png" class="logo_image">
+			<h3 class="logo-text">Your Company Name</h3>
+			<input class="cus-input" type="text" placeholder="Full Name" [(ngModel)]="signup_name"/>
+			<input class="cus-input" type="email" placeholder="Email Address" [(ngModel)]="signup_email"/>
+			<input class="cus-input" type="password" placeholder="Password" [(ngModel)]="signup_password"/>
+			<button class="cus-button" (click)="signup()">Sign Up</button>
+        </div>
+    </div>
+    <div class="form-container sign-in-container">
+        <div class="form" action="#">
+			<img src="https://dashboard.ask-jennie.com/assets/robot.png" class="logo_image">
+			<h3 class="logo-text">Your Company Name</h3>
+			<input class="cus-input" type="email" [(ngModel)]="login_email" placeholder="Email"/>
+			<input class="cus-input" type="password" [(ngModel)]="login_password" placeholder="Password"/>
+			<button class="cus-button" (click)="login()">Sign In</button>
+			<br><br>
+			<p>Forgot password? <a class="link-forget-password" href="forgot/password">Reset</a></p>
+		</div>
+    </div>
+
+    <div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+			    <img src="https://dashboard.ask-jennie.com/assets/robot.png" class="logo_image">
+				<h1 class="heading-other">Welcome Back!</h1>
+				<p class="text-other">Already have a account, continue to login</p>                
+                <button class="cus-button ghost" id="signIn" (click)="show_login()">Login</button> 
+			</div>
+			<div class="overlay-panel overlay-right">
+			    <img src="https://dashboard.ask-jennie.com/assets/robot.png" class="logo_image">
+				<h1 class="heading-other">Don't have an account?</h1>
+				<p class="text-other">It usally takes us 48 hrs to verify an account.</p>
+                <button class="cus-button ghost" id="signUp" (click)="show_signup()">Request registration</button>
+			</div>
+		</div>
+	</div>
+</div>
